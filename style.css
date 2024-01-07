@@ -1,0 +1,133 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Lemon&family=Salsa&display=swap');
+body{
+	background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+background-size: cover;
+}
+.container{
+	margin: 50px auto;
+	padding: 10px 15px;
+	width: 470px;
+	border: 1px solid black;
+	border-radius: 30px; 
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+background: #eae9e9;
+box-shadow:  20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+			 background-color: white;
+			 overflow: hidden;
+}
+.formbox{
+	width: 380px;
+	height: 460px;
+	position: relative;
+	margin: 6% auto;
+	background: white;
+	padding: 5px;
+}
+.buttonflex{
+	width: 210px;
+	margin: 35px auto;
+	position: relative;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+.btnflex{
+	padding: 10px 20px;
+	cursor: pointer;
+	background: transparent;
+	border-radius: 10px;
+	outline: none;
+	position: relative;	
+	border: none;
+	justify-content: space-around;
+	
+}
+.socialmedia{
+	display: flex;
+	width: 220px;
+	margin: 35px auto;
+	justify-content: space-evenly;
+	
+}
+.order{
+	padding: 4px 8px;
+	border-radius: 50%;
+	background-color: azure;
+	border: none;
+	outline: none;
+	font-size: x-large;
+}
+.order:hover{
+	box-shadow: 0px 5px 10px black;
+}
+
+.bi-linkedin{
+	background-color: rgb(255, 255, 255);
+}
+.container input{
+	padding: 4px 8px;
+}
+.signup h1 {
+	font-family: 'Lemon', serif;
+}
+.signup p{
+	font-family: 'Lemon', serif;
+}
+.signin h1 {
+	font-family: 'Lemon', serif;
+}
+.signin p{
+	font-family: 'Lemon', serif;
+}
+.form input{
+	width: 95%;
+	box-sizing: border-box;
+	margin: 8px;
+	padding: 8px;
+	border-radius: 8px;
+	outline: none;
+	border: none;
+	font-family: 'Salsa', cursive;
+	border-bottom: 1px solid black;
+}
+.btn{
+	overflow: hidden;
+}
+.submit{
+	padding: 7px 10px;
+	border-radius: 15px;
+	width: 100px;
+	margin:  20px 20px ;
+	border: none;
+	outline: none;
+	box-shadow: 0px 5px 10px black;
+	background-color: rgba(245, 155, 245, 0.813);
+
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 100px;
+	height: 100%;
+	border-radius: 30px;
+	transform: 0.9 ease;
+	background-color: rgba(245, 155, 245, 0.813);
+}
+#signin{
+	left: 50px;
+}
+#signup{
+	left:  950px;
+}
+/* .view{
+	display: none;
+
+}
+.hide{
+	display: none;
+} */

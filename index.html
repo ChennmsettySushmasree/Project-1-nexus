@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTER HERE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="formbox">
+        <div class="buttonflex">
+          <div id="btn" class="btn"></div>
+          <button class="btnflex" onclick="signin()">SIGN IN</button>
+          <button class="btnflex" onclick="signup()">SIGN UP</button>
+        </div>
+        <div class="socialmedia">
+          <button class="order"><i class="bi bi-linkedin"></i></button>
+          <button class="order"><i class="bi bi-google"></i></button>
+          <button class="order"><i class="bi bi-facebook"></i></button>
+        </div>
+        <form class="signin view" id="signin">
+          <h1 id="heading2">Welcome</h1>
+          <p id="para2">Connect with us to see what's new</p>
+          <div class="form">
+            <input type="text" required placeholder="Enter your name" />
+            <input type="email" required placeholder="Enter your email" />
+            <input type="password" required placeholder="Enter your password" />
+          </div>
+
+          <button class="submit">SUBMIT</button>
+        </form>
+        
+		<!-- <form  class="signin hide" id="signup">
+			<h1 id="heading">Welcome Back</h1>
+			<p id="para">Connect with us to see latest updates</p>
+			<div class="form">
+			  <input type="email" required placeholder="Enter your email" />
+			  <input type="password" required placeholder="Enter your password" />
+			</div>
+			<button class="submit">SUBMIT</button>
+		  </form> -->
+		  
+      </div>
+    </div>
+  </body>
+
+  <script>
+
+    let z = document.getElementById("btn");
+
+    function signup() {
+      z.style.left = "110px";
+
+    }
+    function signin() {
+      z.style.left = "0px";
+    }
+
+  </script>
+</html>
